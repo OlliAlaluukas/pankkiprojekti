@@ -12,7 +12,7 @@ Tässä projektissa rakennettiin pankkiautomaattisovellus. Sovellus sisältää 
 ### Tietokannan ER-kaavio
 
 Sovelluksen tietokanta on kuvattu allaolevassa ER-kaaviossa.
-<img src="er.png">
+<img src="img/er.png">
 
 ### REST API
 
@@ -30,3 +30,11 @@ Kun sovellus on käynnissä ja sarjaportinlukijaan laitetaan kortti, sovellus lu
 Koska API:sa olevat endpointit vaativat autentikointia, on Qt-sovelluksen lähetettävä pyyntöjen mukana webtoken. Jos webtoken ei ole validi, API ei vastaa pyyntöön.
 
 Jos sovellusta ei käytetä 30 sekunnin aikana, kaikki ikkunat lukuunottamatta aloitusikkunaa sulkeutuvat automaattisesti. Tämän toteutuksessa hyödynnettiin Singleton-suunnittelumallia.
+
+### Sovelluksen käyttöliittymä
+
+Kun sovellus käynnistyy, avautuu aloitusikkuna joka on seuraavanlainen
+<img src="img/ui1.PNG">
+
+Kun kortti on syötetty avautuu seuraavanlainen ikkuna
+<img src="img/ui2.PNG">
