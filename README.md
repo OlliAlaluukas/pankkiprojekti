@@ -38,3 +38,6 @@ Kun sovellus käynnistyy, avautuu aloitusikkuna joka on seuraavanlainen
 
 Kun kortti on syötetty avautuu seuraavanlainen ikkuna
 <img src="img/ui2.PNG">
+
+Kun käyttäjä on kirjautunut sisään, avautuu päävalikko
+<img src="img/ui3.PNG">
