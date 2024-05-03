@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Valitse</class>
+ <widget class="QDialog" name="Valitse">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="btnOtto">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>380</y>
+     <width>80</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Otto</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="SaldoBtn">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>460</y>
+     <width>80</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Saldo</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnTapahtumat">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>500</y>
+     <width>80</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Tapahtumat</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnSiirto">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>420</y>
+     <width>80</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Tilisiirto</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnQuit">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>540</y>
+     <width>80</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Keskeytä</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>25</x>
+     <y>30</y>
+     <width>750</width>
+     <height>280</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>150</y>
+     <width>143</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Valitse toiminto</string>
+   </property>
+  </widget>
+  <zorder>textBrowser</zorder>
+  <zorder>btnOtto</zorder>
+  <zorder>SaldoBtn</zorder>
+  <zorder>btnTapahtumat</zorder>
+  <zorder>btnSiirto</zorder>
+  <zorder>btnQuit</zorder>
+  <zorder>label</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
